@@ -28,9 +28,6 @@ dependencies {
     implementation("io.hypersistence:hypersistence-utils-hibernate-62:3.6.0")
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:kotlin-extensions:5.+")
-    testImplementation("org.testcontainers:testcontainers:1.19.1")
-    testImplementation("org.testcontainers:postgresql:1.19.1")
-    testImplementation("org.testcontainers:junit-jupiter:1.19.1")
 }
 
 group = "com.example"
